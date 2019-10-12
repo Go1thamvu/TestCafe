@@ -1,0 +1,11 @@
+{
+    "dev": {
+        "url": "http://localhost:3000"
+    },
+    "staging": {
+        "url": "http://localhost"
+    },
+    "prod": {
+        "url": "http://devexpress.github.io"
+    }
+}

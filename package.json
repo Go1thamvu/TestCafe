@@ -1,0 +1,17 @@
+{
+  "name": "LearningCafe",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "testcafe": "^1.5.0",
+    "testcafe-react-selectors": "^3.2.0"
+  },
+  "scripts": {
+    "chrome": "testcafe chrome tests",
+    "chrome:headless": "testcafe chrome:headless tests",
+    "chrome:debug": "testcafe chrome tests --debug-on-fail --speed 0.7",
+    "firefox": "testcafe firefox tests",
+    "firefox:debug": "testcafe firefox tests --debug-on-fail --speed 0.7"
+  }
+}
