@@ -8,10 +8,10 @@
     "testcafe-react-selectors": "^3.2.0"
   },
   "scripts": {
-    "chrome": "testcafe chrome tests",
-    "chrome:headless": "testcafe chrome:headless tests",
-    "chrome:debug": "testcafe chrome tests --debug-on-fail --speed 0.7",
-    "firefox": "testcafe firefox tests",
-    "firefox:debug": "testcafe firefox tests --debug-on-fail --speed 0.7"
+    "chrome": "ENV=dev testcafe chrome tests",
+    "chrome:headless": "ENV=dev testcafe chrome:headless tests",
+    "chrome:debug": "ENV=dev testcafe chrome tests --debug-on-fail --speed 0.7",
+    "firefox": "ENV=dev testcafe firefox tests",
+    "firefox:debug": "ENV=dev testcafe firefox tests --debug-on-fail --speed 0.7"
   }
 }
