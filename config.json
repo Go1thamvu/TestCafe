@@ -1,9 +1,9 @@
 {
     "dev": {
-        "url": "http://localhost:3000"
+        "url": "http://devexpress.github.io"
     },
     "staging": {
-        "url": "http://localhost"
+        "url": "http://devexpress.github.io"
     },
     "prod": {
         "url": "http://devexpress.github.io"
