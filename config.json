@@ -1,11 +1,14 @@
 {
     "dev": {
-        "url": "http://devexpress.github.io"
+        "exampleUrl": "http://devexpress.github.io",
+        "reactUrl": "http://react-compare-app.surge.sh/"
     },
     "staging": {
-        "url": "http://devexpress.github.io"
+        "exampleUrl": "http://devexpress.github.io",
+        "reactUrl": "http://react-compare-app.surge.sh/"
     },
     "prod": {
-        "url": "http://devexpress.github.io"
+        "exampleUrl": "http://devexpress.github.io",
+        "reactUrl": "http://react-compare-app.surge.sh/"
     }
 }

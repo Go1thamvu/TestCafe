@@ -5,7 +5,7 @@ const env = process.env.ENV;
 console.log(env);
 
 fixture `Test Example`
-    .page(`${config[env].url}/testcafe/example`);
+    .page(`${config[env].exampleUrl}/testcafe/example`);
 
 test('My first test', async t => {
     const fullName = 'Tham Vu';
