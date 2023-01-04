@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "testcafe": "^1.5.0",
+    "testcafe": "^1.20.1",
     "testcafe-react-selectors": "^3.3.0"
   },
   "scripts": {
